@@ -5,32 +5,63 @@
     <mat-list>
       <div mat-subheader>Munu</div>
       <mat-divider></mat-divider>
-      <mat-list-item>
-        <mat-icon matListItemIcon>home</mat-icon>
-        <a routerLink="" matListItemTitle>Inicio</a>
-      </mat-list-item>
 
-      <mat-list-item>
-        <mat-icon matListItemIcon>work</mat-icon>
-        <a routerLink="projetos" matListItemTitle>Projetos</a>
-      </mat-list-item>
+      <a routerLink="">
+        <mat-list-item>
+          <mat-icon matListItemIcon>home</mat-icon>
+          <div matListItemTitle>Inicio</div>
+        </mat-list-item>
+      </a>
 
-      <mat-list-item>
-        <mat-icon matListItemIcon>home</mat-icon>
-        <div matListItemTitle>Inicio</div>
-      </mat-list-item>
+      <a routerLink="projetos">
+        <mat-list-item>
+          <mat-icon matListItemIcon>work</mat-icon>
+          <div matListItemTitle>Projetos</div>
+        </mat-list-item>
+      </a>
 
-      <mat-list-item>
-        <mat-icon matListItemIcon>home</mat-icon>
-        <div matListItemTitle>Inicio</div>
-      </mat-list-item>
-
+      <mat-divider></mat-divider>
       <div mat-subheader>Links externos</div>
-      <mat-list-item>
-        <mat-icon matListItemIcon>note</mat-icon>
-        <div matListItemTitle>nome</div>
-        <div matListItemLine>update</div>
-      </mat-list-item>
+      <mat-divider></mat-divider>
+
+      <a href="https://github.com/CubeBlack">
+        <mat-list-item>
+          <img src="/assets/img/githubBlack.svg" alt="github" srcset="" matListItemIcon>
+          <div matListItemTitle>GitHub</div>
+        </mat-list-item>
+      </a>
+
+      <a href="https://www.linkedin.com/in/daniel-lima-89a6088b/">
+        <mat-list-item>
+          <img src="/assets/img/linkedinBlack.svg" alt="instagram" srcset="" matListItemIcon>
+          <div matListItemTitle>Instagram</div>
+          <span matListItemLine></span>
+        </mat-list-item>
+      </a>
+
+      <a href="https://www.instagram.com/daniellimalord/">
+        <mat-list-item>
+          <img src="/assets/img/instagramBlack.svg" alt="instagram" srcset="" matListItemIcon>
+          <div matListItemTitle>Instagram</div>
+          <span matListItemLine>@DanielLimaLord</span>
+        </mat-list-item>
+      </a>
+
+      <a href="https://wa.me/558388676518">
+        <mat-list-item>
+          <img src="/assets/img/whatsappBlack.svg" alt="Whatsapp" srcset="" matListItemIcon>
+          <div matListItemTitle>Whatsapp</div>
+          <span matListItemLine>+55 83 98867-6518</span>
+        </mat-list-item>
+      </a>
+
+      <a href="https://www.youtube.com/channel/UCUeuQl5cAxz355sJkkD_CCA">
+        <mat-list-item>
+          <img src="/assets/img/youtubeBlack.svg" alt="Youtube" srcset="" matListItemIcon>
+          <div matListItemTitle>Youtube</div>
+        </mat-list-item>
+      </a>
+
     </mat-list>
 
   </mat-drawer>
@@ -47,28 +78,46 @@
 
     <span class="example-spacer"></span>
 
-    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-      <!-- mat-icon>whatsapp</mat-icon-->
-      <img src="/assets/img/instagram.svg" alt="" srcset="">
-    </button>
+    <a href="https://github.com/CubeBlack">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <img src="/assets/img/githubWhite.svg" alt="GitHub" srcset="">
+      </button>
+    </a>
 
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-      <!--mat-icon>share</mat-icon-->
-      <img src="/assets/img/linkedin.svg" alt="" srcset="">
-    </button>
+    <a href="https://www.linkedin.com/in/daniel-lima-89a6088b/">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <img src="/assets/img/linkedinWhite.svg" alt="" srcset="">
+      </button>
+    </a>
 
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-      <!--mat-icon>share</mat-icon-->
-      <img src="/assets/img/whatsapp.vg" alt="" srcset="">
-    </button>
 
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-      <!--mat-icon>share</mat-icon-->
-      <img src="/assets/img/whatsapp.vg" alt="" srcset="">
-    </button>
+    <!-- a href="https://www.instagram.com/daniellimalord/">
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <img src="/assets/img/instagramWhite.svg" alt="instagram" srcset="">
+      </button>
+    </a -->
+
+
+
+    <!-- a href="https://wa.me/558388676518">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <img src="/assets/img/whatsappWhite.svg" alt="" srcset="">
+      </button>
+    </a -->
+
+    <!-- a href="https://www.youtube.com/channel/UCUeuQl5cAxz355sJkkD_CCA">
+      <button href="https://www.youtube.com/channel/UCUeuQl5cAxz355sJkkD_CCA" mat-icon-button class="example-icon"
+        aria-label="Example icon-button with share icon">
+        <img src="/assets/img/youtubeWhite.svg" alt="" srcset="">
+      </button>
+    </a -->
 
   </mat-toolbar>
 
   <router-outlet></router-outlet>
+
+  <footer>
+    Daniel Lima 2023 | <a href="https://storyset.com/web">Web illustrations by Storyset</a>
+  </footer>
 
 </mat-drawer-container>

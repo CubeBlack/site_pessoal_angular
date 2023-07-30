@@ -1,0 +1,46 @@
+.banner {
+    display: block;
+    height: 300px;
+    width: 100vw;
+    background-image: url('/assets/img/storyset/Code typing-bro.svg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner img {
+    max-width: 150px;
+    border-radius: 100px;
+}
+
+.conteudo-bloco {
+    max-width: 900px;
+    margin: 10px auto;
+    clear: both;
+}
+
+.conteudo-bloco ul{
+    
+    
+}
+
+.conteudo-bloco li{
+    
+   
+}
+
+.card {
+    clear: both;
+    margin: 10px;
+    box-shadow: 3px 3px solid lightgray;
+}
+
+.card img {
+    float: right;
+    max-width: 300px;
+    
+}

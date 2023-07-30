@@ -13,6 +13,8 @@ import {MatSidenavModule} from '@angular/material/sidenav'; //menu lateral
 import {MatListModule} from '@angular/material/list';
 import { InicioComponent } from './paginas/inicio/inicio.component';
 import { ProjetosComponent } from './paginas/projetos/projetos.component'; //lista de itens
+import {MatCardModule} from '@angular/material/card'; //cards
+
 //-------
 
 @NgModule({
@@ -30,7 +32,8 @@ import { ProjetosComponent } from './paginas/projetos/projetos.component'; //lis
     MatButtonModule,
     BrowserAnimationsModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

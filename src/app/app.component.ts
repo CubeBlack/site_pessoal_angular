@@ -10,4 +10,9 @@ export class AppComponent {
   title = 'pagina_angular';
 
   showFiller = false;
+
+  //abrir url ao clicar
+  goToLink(url: string) {
+    window.open(url, "_blank");
+  }
 }
