@@ -1,0 +1,74 @@
+<mat-drawer-container class="" autosize>
+
+  <mat-drawer #drawer class="mat-drawer" mode="side">
+
+    <mat-list>
+      <div mat-subheader>Munu</div>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <mat-icon matListItemIcon>home</mat-icon>
+        <a routerLink="" matListItemTitle>Inicio</a>
+      </mat-list-item>
+
+      <mat-list-item>
+        <mat-icon matListItemIcon>work</mat-icon>
+        <a routerLink="projetos" matListItemTitle>Projetos</a>
+      </mat-list-item>
+
+      <mat-list-item>
+        <mat-icon matListItemIcon>home</mat-icon>
+        <div matListItemTitle>Inicio</div>
+      </mat-list-item>
+
+      <mat-list-item>
+        <mat-icon matListItemIcon>home</mat-icon>
+        <div matListItemTitle>Inicio</div>
+      </mat-list-item>
+
+      <div mat-subheader>Links externos</div>
+      <mat-list-item>
+        <mat-icon matListItemIcon>note</mat-icon>
+        <div matListItemTitle>nome</div>
+        <div matListItemLine>update</div>
+      </mat-list-item>
+    </mat-list>
+
+  </mat-drawer>
+
+
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" (click)="drawer.toggle()"
+      aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+
+    </button>
+
+    <span>Daniel Lima</span>
+
+    <span class="example-spacer"></span>
+
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <!-- mat-icon>whatsapp</mat-icon-->
+      <img src="/assets/img/instagram.svg" alt="" srcset="">
+    </button>
+
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <!--mat-icon>share</mat-icon-->
+      <img src="/assets/img/linkedin.svg" alt="" srcset="">
+    </button>
+
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <!--mat-icon>share</mat-icon-->
+      <img src="/assets/img/whatsapp.vg" alt="" srcset="">
+    </button>
+
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <!--mat-icon>share</mat-icon-->
+      <img src="/assets/img/whatsapp.vg" alt="" srcset="">
+    </button>
+
+  </mat-toolbar>
+
+  <router-outlet></router-outlet>
+
+</mat-drawer-container>
