@@ -14,6 +14,7 @@ import {MatListModule} from '@angular/material/list';
 import { InicioComponent } from './paginas/inicio/inicio.component';
 import { ProjetosComponent } from './paginas/projetos/projetos.component'; //lista de itens
 import {MatCardModule} from '@angular/material/card'; //cards
+import {MatTreeModule} from '@angular/material/tree';
 
 //-------
 
@@ -33,7 +34,8 @@ import {MatCardModule} from '@angular/material/card'; //cards
     BrowserAnimationsModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatTreeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
